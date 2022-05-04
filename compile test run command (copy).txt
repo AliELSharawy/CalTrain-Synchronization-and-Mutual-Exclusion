@@ -1,0 +1,4 @@
+create text file "Makefile"
+touch Makefile command
+make command to compile
+./caltrain command to run .c file

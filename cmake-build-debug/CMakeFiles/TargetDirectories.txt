@@ -1,0 +1,3 @@
+/home/alielsharawy/Desktop/OS/OS labs/lab 3 synchroize OS/lab 3 synchroize OS/cmake-build-debug/CMakeFiles/lab_3_files_OS.dir
+/home/alielsharawy/Desktop/OS/OS labs/lab 3 synchroize OS/lab 3 synchroize OS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alielsharawy/Desktop/OS/OS labs/lab 3 synchroize OS/lab 3 synchroize OS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

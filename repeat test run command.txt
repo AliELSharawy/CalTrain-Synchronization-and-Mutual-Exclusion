@@ -1,0 +1,3 @@
+in command line:
+chmod +777 repeat.sh
+./repeat.sh

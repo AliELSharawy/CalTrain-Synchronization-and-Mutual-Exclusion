@@ -37,4 +37,3 @@ CalTrain (the train running in California, USA) has decided to improve its effic
 * If the tester reports success, it doesn’t mean your implementation is correct. Might be the case that the scheduler selected the threads in order that doesn’t show you any error. In order to make sure that the implementation is correct, run the project several times and make sure it doesn’t fail once.
 * You could use [this script](lab3_starter_code/repeat.sh) to run your code many times and make sure it doesn't fail any times in the produced output.
 * This assignment is based on assignment0 offered at Stanford CS140 Operating Systems.
-* There’s no report required.

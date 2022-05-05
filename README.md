@@ -28,11 +28,9 @@ CalTrain (the train running in California, USA) has decided to improve its effic
 
 ## Notes
 
-* You need to work on this project individually.
 * Your laptop should be using Ubuntu either installed or on top of Virtual Machine (VM).
 * If you’re using VM, make sure you’ve allocated more than 1 core for the VM.
 * You can find the the starter code [here](lab3_starter_code/).
-* Never modify [caltrain-runner.c](lab3_starter_code/caltrain-runner.c).
 * You will submit only the filled copies of caltrain.c & caltrain.h files. I will not consider any other files. I will use the original copy of caltrain-runner.c for testing.
 * If the tester reports success, it doesn’t mean your implementation is correct. Might be the case that the scheduler selected the threads in order that doesn’t show you any error. In order to make sure that the implementation is correct, run the project several times and make sure it doesn’t fail once.
 * You could use [this script](lab3_starter_code/repeat.sh) to run your code many times and make sure it doesn't fail any times in the produced output.

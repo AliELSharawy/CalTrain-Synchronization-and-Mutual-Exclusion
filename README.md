@@ -16,15 +16,15 @@ CalTrain (the train running in California, USA) has decided to improve its effic
 
 ## Requirements
 
-1. Write the declaration for **struct station** in the file [caltrain.h](lab3_starter_code/caltrain.h).
-2. Write the three required functions (described above) and the function **station_init**, which will be invoked to initialize the station object when CalTrain boots in the file [caltrain.c](lab3_starter_code/caltrain.c).
-3. You must write your solution in C using Pthreads mutex and condition variables. Note, you should **not** use semaphores or other synchronization primitives.
-4. You may not use more than a **single lock** in each struct station.
-5. **Don’t use any global variables**. Just fill the required functions and the station struct.
-6. You may assume that there is never more than one train in the station at once, and that all trains (and all passengers) are going to the same destination (i.e. any passenger can board any train).
-7. Your code must allow multiple passengers to board simultaneously. Use **pthread_cond_broadcast** for signaling all passengers to board the train, but signaling the train to leave can be done using **pthread_cond_signal**.
-8. Your code must **never** result in busy-waiting.
-9. Minimize all critical sections, don’t just put all your code inside a mutex lock. We will check every single statement in your code and see whether it needed to be put inside a lock or not.
+1. the declaration for **struct station** is in the file [caltrain.h](lab3_starter_code/caltrain.h).
+2. the three required functions (described above) and the function **station_init**, which will be invoked to initialize the station object when CalTrain boots in the file [caltrain.c](lab3_starter_code/caltrain.c).
+3. solution is written in C using Pthreads mutex and condition variables. Note, you should **not** use semaphores or other synchronization primitives.
+4. One single lock only in each struct station.
+5. No global variables used. Just the required functions and the station struct are filled.
+6. assuming that there is never more than one train in the station at once, and that all trains (and all passengers) are going to the same destination (i.e. any passenger can board any train).
+7. The code must allow multiple passengers to board simultaneously. Using pthread_cond_broadcast for signaling all passengers to board the train, but signaling the train to leave can be done using pthread_cond_signal.
+8. The code must never result in busy-waiting.
+9. Minimize all critical sections, don’t just put all The code inside a mutex lock.
 
 ## Notes
 
